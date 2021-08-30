@@ -1,0 +1,24 @@
+body{
+	background-image: url(../img/fullscreen.jpg);
+	background-repeat: repeat;
+	background-size: all;
+	background-position: top center;
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+	font-family: 'crete round';
+	font-size: 3em;
+    text-shadow: 0 0 10px #0f18d0, 0 0 40px #0f18d0;
+}
+
+
+#box-bordered{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  border: 2px solid #FFF;
+  box-shadow: 0 0 10px #0f18d0, 0 0 20px #0f18d0;
+  border-radius: 15px;
+}

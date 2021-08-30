@@ -1,0 +1,75 @@
+body{
+  background-image: url(../img/fullscreen.jpg); /*#3F4045*/
+  background-repeat: repeat;
+  color: #F8F8F8;
+}
+
+.app h1{
+    font-family: 'crete round', serif;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+#globe{
+  color: #ff007e;
+  text-shadow: 0 0 20px #0f18d0, 0 0 40px #0f18d0, 0 0 100px #0f18d0;
+
+
+}
+h1:hover{
+  font-family: 'crete round', serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 0 0 20px #ff007e;
+  cursor: pointer;
+
+}
+nav{
+  margin-top: 10px;
+}
+
+
+}
+.citation {
+  box-shadow: 0 0 20px #0f18d0, 0 0 40px #0f18d0, 0 0 100px #0f18d0;
+  background-color: #0f18d0;
+  font-family: 'crete round';
+  border-radius: 10px;
+}
+
+
+
+form{
+    text-align: center;
+    margin:25px auto;
+    padding: 60px;
+    font-size: 1.5em;
+    border: 2px solid gray;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid #FFF;
+    box-shadow: 0 0 10px #0f18d0;
+}
+
+
+
+#msg{
+    margin-bottom: 10px;
+}
+
+#cnt{
+  display: inline;
+  border-bottom: 2px solid #0f18d0;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+footer{
+  margin-top:50px;
+  background-color: #33546c;
+  padding:1%;
+
+}

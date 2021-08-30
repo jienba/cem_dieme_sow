@@ -1,0 +1,81 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/fullscreen.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top center;
+}
+
+@font-face {
+  font-family: Dosis;
+
+  src: url('../fonts/Dosis.ttf');
+}
+
+ h1{
+ 	font-family: dosis;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 0 0 10px #ff007e, 0 0 40px #ff007e, 0 0 80px #ff007e;
+}
+input{
+	border-radius: 10px;
+	
+}
+
+.login-box{
+	width: 45%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #FFF;
+}
+
+
+.login-box h2{
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 35px;
+	border-bottom: 4px solid #0f18d0;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	
+}
+
+
+.text-box{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 10px 0;
+	margin: 10px 0;
+	border-bottom: 2px solid #0f18d0;
+}
+
+
+.text-box input{
+	width: 80%;
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.bton{
+	width: 100%;
+	background: none;
+	border: 2px solid #0f18d0;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	margin: 15px 0;
+}
